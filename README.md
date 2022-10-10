@@ -24,11 +24,11 @@ If data augmentation is implemented accuracy scores up to 79 % were achieved on 
 
 The tested deep neural network architectures were:
 * standard deep neural network with four fully-connected hidden layers with [512, 256, 128, 64] units
-* one block VGG convolutional neural network with a convolutional layer with 32 filters followed by a maxpooling layer
-* two block VGG convolutional neural network with one additional block with a convolutional layer with 64 filters followed by a maxpooling layer
-* three block VGG convolutional neural network with one additional block with a convolutional layer with 128 filters followed by a maxpooling layer
+* one block VGG convolutional neural network with a 3 x 3 convolutional layer with 32 filters followed by a 2 x 2 maxpooling layer
+* two block VGG convolutional neural network with one additional block with a 3 x 3 convolutional layer with 64 filters followed by a 2 x 2 maxpooling layer
+* three block VGG convolutional neural network with one additional block with a 3 x 3 convolutional layer with 128 filters followed by a 2 x 2 maxpooling layer
 
 All models were trained with and without additional dropout.
 
-VGG blocks were developed by the Visual Geometry Group (VGG) at Oxford University and were introduced in:
+VGG block architecture for convolutional neural networks were introduced by the Visual Geometry Group (VGG) at Oxford University:
 Simonyan, K., & Zisserman, A. (2014). Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556. https://arxiv.org/abs/1409.1556
