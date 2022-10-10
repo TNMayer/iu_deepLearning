@@ -39,6 +39,5 @@ The tested deep neural network architectures were:
 
 All models were trained with and without additional dropout.
 
-VGG block architecture for convolutional neural networks were introduced by the Visual Geometry Group (VGG) at Oxford University:
-
+VGG block architecture for convolutional neural networks were introduced by the Visual Geometry Group (VGG) at Oxford University: <br/>
 Simonyan, K., & Zisserman, A. (2014). Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556. https://arxiv.org/abs/1409.1556
