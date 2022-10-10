@@ -6,7 +6,18 @@ Geirhos, R., Jacobsen, J.-H., Michaelis, C., Zemel, R., Brendel, W., Bethge, M.,
 
 (https://github.com/rgeirhos/shortcut-perspective)
 
-### Motivational example:
+## Installation of virtual environment
+
+All used package dependencies are bundled in the file requirements.txt. In order to use the environment do:
+
+```{bash}
+python -m venv .venv
+.venv\Scripts\activate.bat # on windows machines
+source .venv/bin/activate # on other operating systems
+pip install -r requirements.txt
+```
+
+## Motivational example:
 
 **Biased training data and i.i.d. test data**
 Cats are either shown in top left or bottom right quadrant of image and cows are either shown in top right or bottom left quadrant of image.
