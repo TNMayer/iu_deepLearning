@@ -15,6 +15,10 @@ python -m venv .venv
 source .venv/bin/activate # on other operating systems
 pip install -r requirements.txt
 ```
+You can find the replication code in the file:
+```
+./shortcut.ipynb
+```
 ## Motivational example:
 
 **Biased training data and i.i.d. test data**
