@@ -9,14 +9,12 @@ Geirhos, R., Jacobsen, J.-H., Michaelis, C., Zemel, R., Brendel, W., Bethge, M.,
 ## Installation of virtual environment
 
 All used package dependencies are bundled in the file requirements.txt. In order to use the environment do:
-
 ```{bash}
 python -m venv .venv
 .venv\Scripts\activate.bat # on windows machines
 source .venv/bin/activate # on other operating systems
 pip install -r requirements.txt
 ```
-
 ## Motivational example:
 
 **Biased training data and i.i.d. test data**
@@ -42,4 +40,5 @@ The tested deep neural network architectures were:
 All models were trained with and without additional dropout.
 
 VGG block architecture for convolutional neural networks were introduced by the Visual Geometry Group (VGG) at Oxford University:
+
 Simonyan, K., & Zisserman, A. (2014). Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556. https://arxiv.org/abs/1409.1556
