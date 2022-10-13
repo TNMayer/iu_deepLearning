@@ -41,6 +41,9 @@ The tested deep neural network architectures were:
 * two block VGG convolutional neural network with one additional block with a 3 x 3 convolutional layer with 64 filters followed by a 2 x 2 maxpooling layer
 * three block VGG convolutional neural network with one additional block with a 3 x 3 convolutional layer with 128 filters followed by a 2 x 2 maxpooling layer
 
+The subsequent figure shows the used architecture for the convolutional neural nets:
+![](./images/CNN_structure.png "CNN architecture")
+
 All models were trained with and without additional dropout.
 
 VGG block architecture for convolutional neural networks were introduced by the Visual Geometry Group (VGG) at Oxford University: <br/>
